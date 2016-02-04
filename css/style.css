@@ -148,20 +148,40 @@ div.meetyourmatch {
   padding-left:30px;
 }
 
-h2 {
+.meetyourmatch h2 {
   font-size:30px;
   font-family: Source Sans Pro;
   font-weight: bold;
 
 }
 
-p {
+.meetyourmatch p {
   font-size:20px;
   font-family: Source Sans Pro;
   font-weight: normal;
   display:inline;
   line-height: 30px
 
+}
+
+.yellowbox {
+  margin-bottom:50px;
+  display:center;
+  background-color:#fdf731;
+  width:400px;
+  height:40px;
+  margin-left:30px;
+  margin-top:40px;
+  border-radius: 5px;
+  background-size: contain;
+
+}
+.yellow p {
+  color:black;
+  padding: 5px 5px;
+  font-size:20px;
+  font-family:Oswald;
+  fong-weight: bold;
 }
 
 
