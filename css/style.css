@@ -99,13 +99,11 @@ header nav ul li {
 .clearparent {
   overflow: hidden;
 }
-.taglinebackground {
+
+.tagline {
   background-color: #c6c6c6;
   width: 100%;
   height: 70px;
-}
-
-p {
   text-align: center;
   padding: 25px;
   font-size: 25px;
@@ -113,6 +111,7 @@ p {
   font-weight: Bold;
   font-style: Italic;
 }
+
 
 .style-1 {
   color: gray;
@@ -133,8 +132,8 @@ div.background {
 
 div.transbox{
   float: right;
-  width: 500px;
-  height:400px;
+  width: 450px;
+  height:350px;
   margin-right:20px;
   margin-top:50px;
   background-color:rgb(255,255,255);
@@ -176,13 +175,79 @@ div.meetyourmatch {
   background-size: contain;
 
 }
-.yellow p {
+.yellowbox p {
   color:black;
-  padding: 5px 5px;
+  padding: 10px 5px;
   font-size:20px;
   font-family:Oswald;
   fong-weight: bold;
+  font-style: normal;
+  text-align: center;
 }
 
+.clearparent {
+  overflow: hidden;
+
+}
+
+.box {
+  height: 300px;
+  margin-left:10px;
+  margin-top:20px;
+  float: left;
+  border-right: solid #ddd;
+  border-width:1px;
+  padding:20px;
+
+}
+
+.header {
+  font-size: 25px;
+  font-family: Merriweather;
+  font-style: Bold;
+  line-height: 30px;
+}
+.paragraph {
+  font-size:20px;
+  font-family:Source Sans Pro;
+  font-style: Normal;
+  line-height: 30px;
+}
+
+.graybox {
+  background-color:#c6c6c6;
+  margin-top:40px;
+  border-radius: 5px;
+  background-size: contain;
+  font-size: 20px;
+  font-family: Oswald;
+  font-style: Bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:80px;
 
 
+}
+.box-3 {
+  border-style:none;
+}
+
+.clearparent {
+  overflow:hidden;
+}
+
+.footerbox {
+  background-color:#000;
+  width: 100%;
+  height:80px;
+}
+.copyright {
+  font-size: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: Source Sans Pro;
+  font-weight: Normal;
+  padding-left:75px;
+  padding-top:30px;
+
+}
